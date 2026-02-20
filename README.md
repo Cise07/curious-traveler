@@ -43,9 +43,8 @@ Assicurati di avere **Python 3.x** installato sul tuo sistema.
 3. **Installa le dipendenze:**
    Il progetto richiede la libreria `requests`.
    ```bash
-   pip install requests
+   pip install -r requirements.txt
    ```
-   *(Nota: puoi anche creare un file `requirements.txt` con all'interno la parola `requests` e lanciare `pip install -r requirements.txt`)*
 
 ---
 
@@ -73,7 +72,7 @@ Segui le istruzioni a schermo:
 Il codice è modulare e organizzato per una facile manutenzione:
 
 ```text
-curioustrip/
+app/
 │
 ├── api/
 │   ├── cat_api.py       # API per le curiosità sui gatti
