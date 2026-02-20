@@ -50,9 +50,13 @@ Assicurati di avere **Python 3.x** installato sul tuo sistema.
 
 ## 🎮 Utilizzo
 
-Per avviare l'applicazione, esegui il file principale dal terminale:
+Per avviare l'applicazione, esegui il file principale dal terminale :
 
 ```bash
+//Spostarsi nella directory 'app'
+cd app
+
+//eseguire il file 'main.py'
 python main.py
 ```
 
