@@ -109,22 +109,6 @@ Questo progetto non sarebbe possibile senza queste fantastiche API gratuite:
 
 ---
 
-## 🤝 Contribuire
-
-I contributi sono benvenuti! Sentiti libero di aprire una *Issue* o inviare una *Pull Request* se vuoi aggiungere nuove API, migliorare l'interfaccia ASCII o correggere bug.
-
-1. Fai un fork del repository
-   
-2. Crea un tuo branch (`git checkout -b feature/NuovaFunzionalita`)
-   
-3. Fai commit delle tue modifiche (`git commit -m 'Aggiunta nuova funzionalità'`)
-   
-4. Fai push sul branch (`git push origin feature/NuovaFunzionalita`)
-   
-5. Apri una Pull Request
-
----
-
 ## 📝 Licenza
 
 Distribuito con licenza MIT. Vedi il file `LICENSE` per maggiori informazioni.
