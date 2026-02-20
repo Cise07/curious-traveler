@@ -37,7 +37,12 @@ Assicurati di avere **Python 3.x** installato sul tuo sistema.
 2. **Crea un ambiente virtuale (opzionale ma consigliato):**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Su Windows usa: venv\Scripts\activate
+
+   #su Mac usa:
+   source venv/bin/activate
+   
+   #Su Windows usa:
+   venv\Scripts\activate
    ```
 
 3. **Installa le dipendenze:**
@@ -53,10 +58,10 @@ Assicurati di avere **Python 3.x** installato sul tuo sistema.
 Per avviare l'applicazione, esegui il file principale dal terminale :
 
 ```bash
-//Spostarsi nella directory 'app'
+#Spostarsi nella directory 'app'
 cd app
 
-//eseguire il file 'main.py'
+#eseguire il file 'main.py'
 python main.py
 ```
 
