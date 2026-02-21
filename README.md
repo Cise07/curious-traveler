@@ -24,6 +24,12 @@
 
 ---
 
+## 🎥 Demo del programma 
+
+![Demo](https://github.com/user-attachments/assets/64971928-9d55-42f2-8e89-baabd68209e0)
+
+---
+
 ## 🚀 Installazione
 
 Assicurati di avere **Python 3.x** installato sul tuo sistema.
