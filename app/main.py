@@ -77,14 +77,14 @@ def curious_trip():
             filename = f"trip_card_{country['name'].replace(' ', '_')}.txt"
         
         # Chiedi conferma all'utente
-            scelta = input(f"\n❓ Vuoi salvare la scheda per {country['name']}? (Y/N): ").strip().lower()
+            scelta = input(f"\n❓ Do you want to save the card for {country['name']}? (Y/N): ").strip().lower()
 
             if scelta=='y':
                 with open(filename, "w", encoding="utf-8") as f:
                  f.write(card)
                 print(f"💾 Saved as: {filename}")
             else:
-                print("❌ Salvataggio annullato dall'utente.")
+                print("❌ save cancelled by the user.")
 
         except Exception as e:
             print(f"❌ Error: {e}")
