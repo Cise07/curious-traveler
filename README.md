@@ -1,128 +1,128 @@
 # 🌍 CuriousTrip
 
-> **Il tuo compagno di viaggio definitivo direttamente da terminale!**
+> **Your ultimate travel companion directly from the terminal!**
 
-**CuriousTrip** è un'applicazione CLI (Command Line Interface) in Python che trasforma la pianificazione di un viaggio in un'esperienza interattiva e divertente. Inserendo il nome di un paese, l'app interroga diverse API pubbliche per generare un'elegante "Travel Card" contenente informazioni geografiche, meteo in tempo reale, tassi di cambio, consigli culinari e persino un po' di intrattenimento.
-
----
-
-## ✨ Funzionalità
-
-- 📍 **Informazioni sul Paese:** Scopri capitale, continente, popolazione, lingue ufficiali e valuta locale.
-  
-- 🌤️ **Meteo in Tempo Reale:** Ottieni temperatura e condizioni atmosferiche attuali della capitale.
-  
-- 💰 **Convertitore di Valuta:** Inserisci il tuo budget in Euro (EUR) e scopri a quanto ammonta nella valuta di destinazione.
-  
-- 🍽️ **Consiglio dello Chef:** Ricevi il suggerimento di un piatto tipico (o casuale) con i relativi ingredienti principali.
-  
-- 🐱 **Curiosità sui Gatti:** Impara qualcosa di nuovo sui nostri amici felini durante il viaggio.
-  
-- 😂 **Travel Joke:** Inizia il viaggio con un sorriso grazie a una barzelletta (in inglese).
-  
-- 💾 **Salvataggio Locale:** Esporta e salva comodamente la tua *Travel Card* in un file `.txt` per consultarla offline.
+**CuriousTrip** is a Python CLI (Command Line Interface) application that transforms travel planning into an interactive and fun experience. By entering the name of a country, the app queries several public APIs to generate an elegant "Travel Card" containing geographical information, real-time weather, exchange rates, culinary tips, and even a bit of entertainment.
 
 ---
 
-## 🎥 Demo del programma 
+## ✨ Features
+
+- 📍 **Country Information:** Discover capital, continent, population, official languages, and local currency.
+  
+- 🌤️ **Real-Time Weather:** Get current temperature and atmospheric conditions for the capital city.
+  
+- 💰 **Currency Converter:** Enter your budget in Euro (EUR) and find out how much it amounts to in the destination currency.
+  
+- 🍽️ **Chef's Recommendation:** Receive a suggestion for a typical (or random) dish with its main ingredients.
+  
+- 🐱 **Cat Facts:** Learn something new about our feline friends during your trip.
+  
+- 😂 **Travel Joke:** Start your journey with a smile thanks to a joke (in English).
+  
+- 💾 **Local Saving:** Conveniently export and save your *Travel Card* to a `.txt` file for offline consultation.
+
+---
+
+## 🎥 Program Demo 
 
 ![Demo](https://github.com/user-attachments/assets/64971928-9d55-42f2-8e89-baabd68209e0)
 
 ---
 
-## 🚀 Installazione
+## 🚀 Installation
 
-Assicurati di avere **Python 3.x** installato sul tuo sistema.
+Make sure you have **Python 3.x** installed on your system.
 
-1. **Clona il repository:**
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/tuo-username/curioustrip.git](https://github.com/tuo-username/curioustrip.git)
+   git clone [https://github.com/your-username/curioustrip.git](https://github.com/your-username/curioustrip.git)
    cd curioustrip
    ```
 
-2. **Crea un ambiente virtuale (opzionale ma consigliato):**
+2. **Create a virtual environment (optional but recommended):**
    ```bash
    python -m venv venv
 
-   #su Mac usa:
+   # On Mac use:
    source venv/bin/activate
    
-   #Su Windows usa:
+   # On Windows use:
    venv\Scripts\activate
    ```
 
-3. **Installa le dipendenze:**
-   Il progetto richiede la libreria `requests`.
+3. **Install dependencies:**
+   The project requires the `requests` library.
    ```bash
    pip install -r requirements.txt
    ```
 
 ---
 
-## 🎮 Utilizzo
+## 🎮 Usage
 
-Per avviare l'applicazione, esegui il file principale dal terminale :
+To start the application, run the main file from the terminal:
 
 ```bash
-#Spostarsi nella directory 'app'
+# Move into the 'app' directory
 cd app
 
-#eseguire il file 'main.py'
+# Run the 'main.py' file
 python main.py
 ```
 
-Segui le istruzioni a schermo:
+Follow the on-screen instructions:
 
-1. Inserisci il nome del paese di destinazione (in lingua inglese, es. `Japan`, `Italy`, `Brazil`).
+1. Enter the name of the destination country (in English, e.g., `Japan`, `Italy`, `Brazil`).
    
-2. Inserisci il tuo budget in Euro (es. `500`).
+2. Enter your budget in Euro (e.g., `500`).
    
-3. Goditi la tua Travel Card! Alla fine, potrai scegliere se salvarla in un file di testo.
+3. Enjoy your Travel Card! At the end, you can choose whether to save it to a text file.
    
 
 ---
 
-## 📂 Struttura del Progetto
+## 📂 Project Structure
 
-Il codice è modulare e organizzato per una facile manutenzione:
+The code is modular and organized for easy maintenance:
 
 ```text
 app/
 │
 ├── api/
-│   ├── cat_api.py       # API per le curiosità sui gatti
-│   ├── country_api.py   # API per i dati geografici
-│   ├── currency_api.py  # API per i tassi di cambio
-│   ├── food_api.py      # API per le ricette
-│   ├── joke_api.py      # API per le barzellette
-│   └── weather_api.py   # API per il meteo
+│   ├── cat_api.py       # API for cat facts
+│   ├── country_api.py   # API for geographical data
+│   ├── currency_api.py  # API for exchange rates
+│   ├── food_api.py      # API for recipes
+│   ├── joke_api.py      # API for jokes
+│   └── weather_api.py   # API for weather
 │
 ├── tools/
-│   └── formatter.py     # Logica di formattazione della UI in ASCII
+│   └── formatter.py     # UI formatting logic in ASCII
 │
-└── main.py              # Entry point dell'applicazione
+└── main.py              # Application entry point
 ```
 
 ---
 
-## 🔌 API Utilizzate
+## 🔌 APIs Used
 
-Questo progetto non sarebbe possibile senza queste fantastiche API gratuite:
+This project wouldn't be possible without these fantastic free APIs:
 
-- [REST Countries](https://restcountries.com/) - Dati sui paesi
+- [REST Countries](https://restcountries.com/) - Country data
   
-- [Open-Meteo](https://open-meteo.com/) - Previsioni meteo
+- [Open-Meteo](https://open-meteo.com/) - Weather forecasts
   
-- [Exchange Rate API](https://open.er-api.com/) - Tassi di cambio valute
+- [Exchange Rate API](https://open.er-api.com/) - Currency exchange rates
   
-- [TheMealDB](https://www.themealdb.com/) - Ricette e pasti casuali
+- [TheMealDB](https://www.themealdb.com/) - Recipes and random meals
   
-- [CatFact.ninja](https://catfact.ninja/) - Curiosità sui gatti
+- [CatFact.ninja](https://catfact.ninja/) - Cat facts
   
-- [JokeAPI](https://v2.jokeapi.dev/) - Barzellette sicure per il lavoro
+- [JokeAPI](https://v2.jokeapi.dev/) - Safe-for-work jokes
 
 ---
 
-## 📝 Licenza
+## 📝 License
 
-Distribuito con licenza MIT. Vedi il file `LICENSE` per maggiori informazioni.
+Distributed under the MIT License. See the `LICENSE` file for more information.
