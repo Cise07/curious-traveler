@@ -36,8 +36,8 @@ Make sure you have **Python 3.x** installed on your system.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/curioustrip.git](https://github.com/your-username/curioustrip.git)
-   cd curioustrip
+   git clone https://github.com/Cise07/curious-traveler curious-traveler
+   cd curious-traveler
    ```
 
 2. **Create a virtual environment (optional but recommended):**
